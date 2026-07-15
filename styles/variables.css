@@ -1,0 +1,117 @@
+:root {
+     /* Layout */
+     --container-width: 1494px;
+     --container-padding: 0 15px;
+     --gap-lg: 50px;
+
+     /* Colors */
+     --color-white: #ffffff;
+     --color-gray-1: #aeaeae;
+     --color-gray-5: #555558;
+     --color-gray-7: #7e7e7f;
+     --color-gray-10: #aeaeae;
+     --color-orange: #dc8b12;
+     --color-dark: #222228;
+
+     --color-white-01: rgba(255, 255, 255, 0.1);
+     --color-white-08: rgba(255, 255, 255, 0.8);
+     --color-white-18: rgba(255, 255, 255, 0.18);
+     --color-white-26: rgba(255, 255, 255, 0.26);
+
+     --color-black-opacity-61: rgba(14, 15, 17, 0.61);
+
+     /* Typography */
+     --font-main: "GolosTextRegular", sans-serif;
+     --font-size: 12px;
+
+     --border-radius-main: 15px;
+     --border-radius-icon: 10px;
+
+     /* ==========================================================================
+        THEME TOKENS
+        Эти 3 переменные — единственное, что переключается между светлой и
+        тёмной темой. Остальные переменные (--color-white, --color-orange,
+        --color-gray-7 и т.д.) используются в секциях, которые всегда тёмные
+        (hero, our-experience, partners, cooperation) — их трогать нельзя.
+        ========================================================================== */
+     --color-bg-page: var(--color-white);
+     --color-text-heading: var(--color-dark);
+     --color-text-body: var(--color-gray-5);
+}
+
+/* ==========================================================================
+   ТЁМНАЯ ТЕМА
+   Переключается атрибутом data-theme="dark" на <html> .
+   Меняет только фон "светлых" секций (manifesto, product-line, engineering)
+   и цвет текста в них. Всё остальное (hero, our-experience, partners-section,
+   cooperation-section) уже тёмное по дизайну и не участвует в переключении.
+   ========================================================================== */
+[data-theme="dark"] {
+     --color-bg-page: #222228;
+     --color-text-heading: #ffffff;
+     --color-text-body: #d1d1d7;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+     font-family: var(--font-main);
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+ul,
+li {
+     list-style: none;
+     line-height: 1;
+}
+
+a {
+     outline: none;
+     text-decoration: none;
+}
+
+body {
+     font-family: var(--font-main);
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+     font-size: 21px;
+     line-height: 1.5;
+     color: var(--color-text-body);
+     background-color: var(--color-bg-page);
+}
+
+img {
+     max-width: 100%;
+     display: block;
+}
+
+button {
+     outline: none;
+     border: none;
+     background: none;
+     cursor: pointer;
+     font-family: var(--font-main);
+}
+
+.swiper-button-lock {
+     display: none !important;
+}
+
+.no-scroll {
+     position: relative;
+     overflow: hidden;
+     height: 100vh;
+     position: fixed;
+     left: 0;
+     width: 100%;
+}
+
+@media (max-width: 640px) {
+     :root {
+          --container-padding: 0 10px;
+     }
+}
