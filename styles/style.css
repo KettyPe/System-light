@@ -247,6 +247,19 @@
      justify-content: center;
      align-items: center;
      box-sizing: border-box;
+     color: var(--color-orange);
+}
+
+.hero-section__mouse {
+     width: 38px;
+     height: 56px;
+     border: 1px solid rgba(255, 255, 255, 0.5);
+     border-radius: 36px;
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     box-sizing: border-box;
      color: #dc8b12;
      transition: transform 0.3s ease, border-color 0.3s ease;
 }
@@ -549,12 +562,14 @@
      cursor: pointer;
 }
 
-.product-line-card__item:hover {
+.product-line-card__item:hover,
+.product-line-card__item.is-active {
      background-color: var(--color-white);
      color: var(--color-dark);
 }
 
-.product-line-card__item:hover .product-line-card__arrow {
+.product-line-card__item:hover .product-line-card__arrow,
+.product-line-card__item.is-active .product-line-card__arrow {
      color: var(--color-orange);
 }
 
@@ -593,6 +608,7 @@
      height: 100%;
      object-fit: cover;
      object-position: center;
+     transition: opacity 0.25s ease-in-out;
 }
 
 .product-line__footer {
@@ -876,21 +892,26 @@
      display: block;
 }
 
-.partners-section__item:hover {
+.partners-section__item:hover,
+.partners-section__item.is-active {
      background-color: var(--color-white);
      border-left-color: var(--color-orange);
 }
 
-.partners-section__item:hover .partners-section__item-name {
+.partners-section__item:hover .partners-section__item-name,
+.partners-section__item.is-active .partners-section__item-name {
      color: #222228;
 }
 
 .partners-section__item:hover .partners-section__item-type,
-.partners-section__item:hover .partners-section__item-country {
+.partners-section__item:hover .partners-section__item-country,
+.partners-section__item.is-active .partners-section__item-type,
+.partners-section__item.is-active .partners-section__item-country {
      color: #555558;
 }
 
-.partners-section__item:hover .partners-section__arrow {
+.partners-section__item:hover .partners-section__arrow,
+.partners-section__item.is-active .partners-section__arrow {
      color: var(--color-orange);
 }
 
@@ -940,6 +961,7 @@
      object-fit: cover;
      object-position: center;
      display: block;
+     transition: opacity 0.25s ease-in-out;
 }
 
 .cooperation-section {
