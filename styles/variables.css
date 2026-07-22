@@ -13,6 +13,10 @@
      --color-orange: #dc8b12;
      --color-dark: #222228;
 
+     --color-surface: #f0f0f0;
+     --color-charcoal: #1b1e22;
+     --color-obsidian: #14171b;
+
      --color-white-01: rgba(255, 255, 255, 0.1);
      --color-white-08: rgba(255, 255, 255, 0.8);
      --color-white-18: rgba(255, 255, 255, 0.18);
@@ -26,6 +30,8 @@
 
      --border-radius-main: 15px;
      --border-radius-icon: 10px;
+
+     --border-radius-icon-lg: 13.33px;
 
      /* ==========================================================================
         THEME TOKENS
@@ -53,7 +59,7 @@
 }
 
 html {
-    scroll-behavior: smooth;
+     scroll-behavior: smooth;
 }
 
 * {
