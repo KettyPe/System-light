@@ -1865,7 +1865,7 @@
 }
 
 .roles__item::before {
-     content: url("../img/roles/icon-dot.svg");
+     content: url("../img/cooperation-page/roles/icon-dot.svg");
      display: block;
      flex-shrink: 0;
      width: 45px;
