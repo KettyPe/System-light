@@ -1452,6 +1452,7 @@
 
      .hero-section::after {
           background: radial-gradient(115.84% 219.9% at 0% 1.18%, #14171b 0%, rgba(20, 23, 27, 0) 100%) 
+     }
 
      .hero-section__title {
           font-size: 54px;
