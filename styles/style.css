@@ -1865,11 +1865,15 @@
 }
 
 .roles__item::before {
-     content: url("../img/cooperation-page/roles/icon-dot.svg");
+     content: '';
      display: block;
      flex-shrink: 0;
      width: 45px;
      height: 45px;
+     background-image: url("../img/cooperation-page/roles/icon-dot.svg");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: contain;
 }
 
 .roles__item-content {
