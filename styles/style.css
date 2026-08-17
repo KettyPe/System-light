@@ -4,11 +4,23 @@
      padding: var(--container-padding);
 }
 
-.title {
+main .title {
      font-weight: 600;
      font-size: 44px;
      line-height: 124%;
+     --color-text-heading: var(--light, #222228) var(--dark, #ffffff);
      color: var(--color-text-heading);
+}
+main p {
+     margin-bottom: 0;
+}
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6 {
+     margin: 0;
 }
 
 .subtitle {
@@ -24,6 +36,10 @@
 
 .subtitle span {
      color: var(--color-gray-1);
+}
+
+.title-white {
+     color: #ffffff !important;
 }
 
 .hero-section {
