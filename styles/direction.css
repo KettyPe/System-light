@@ -2038,7 +2038,7 @@
      transform: translateY(-50%);
      width: 15px;
      height: 15px;
-     background: url("../img/icons/check.svg") center/contain no-repeat;
+     background: url("../img/direction-page/icons/check.svg") center/contain no-repeat;
 }
 
 .stage-direction-pg__btn {
