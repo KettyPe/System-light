@@ -70,7 +70,6 @@
      overflow: hidden;
 }
 
-/* Эффект свечения */
 .cooperation-directions-pg__glow {
      position: absolute;
      top: -75px;
@@ -83,7 +82,6 @@
      pointer-events: none;
 }
 
-/* Инфо блок */
 .cooperation-directions-pg__info {
      display: flex;
      flex-direction: column;
@@ -132,7 +130,6 @@
      color: #aeaeae;
 }
 
-/* Форма */
 .cooperation-directions-pg__form {
      display: flex;
      flex-direction: column;
@@ -197,7 +194,6 @@
      resize: none;
 }
 
-/* Чекбокс и согласие */
 .cooperation-directions-pg__agreement {
      margin-top: 5px;
 }
@@ -259,7 +255,6 @@
      color: #ffffff;
 }
 
-/* Кнопка */
 .cooperation-directions-pg__submit-btn {
      width: 100%;
      padding: 20px 25px;
@@ -291,19 +286,15 @@
 }
 
 .services-directions-pg__grid {
-     /* display: grid; */
-     /* grid-template-columns: repeat(3, 1fr); */
      display: flex;
      gap: 30px;
      min-height: 500px;
 }
 
-/* Колонка 1: Интро */
 .services-directions-pg__intro {
      display: flex;
      flex-direction: column;
      justify-content: space-between;
-     /* height: 100%; */
      flex: 0 0 468px;
 }
 
@@ -355,7 +346,6 @@
      gap: 30px;
 }
 
-/* Колонки 2 и 3 */
 .services-directions-pg__column {
      flex: 0 1 50%;
      display: flex;
@@ -363,7 +353,6 @@
      gap: 30px;
 }
 
-/* Карточки */
 .services-directions-pg__card {
      position: relative;
      background-color: #1b1e22;
@@ -413,14 +402,12 @@
      margin: 0;
 }
 
-/* Изображения внутри карточек */
 .services-directions-pg__card-img {
      position: absolute;
      pointer-events: none;
      z-index: 1;
 }
 
-/* Позиционирование 1: Схема светильника */
 .services-directions-pg__card-img--engineering {
      width: 476px;
      height: auto;
@@ -429,7 +416,6 @@
      object-fit: contain;
 }
 
-/* Позиционирование 2: Фасад здания */
 .services-directions-pg__card-img--lighting {
      width: 185px;
      height: 100%;
@@ -439,7 +425,6 @@
      border-radius: 0 15px 15px 0;
 }
 
-/* Позиционирование 3: Прожектор монтажа */
 .services-directions-pg__card-img--installation {
      width: 453px;
      height: auto;
@@ -464,7 +449,6 @@
      gap: 40px;
 }
 
-/* Шапка */
 .directions-directions-pg__header {
      display: flex;
      justify-content: space-between;
@@ -502,7 +486,6 @@
      color: #ffffff;
 }
 
-/* Навигация */
 .directions-directions-pg__nav {
      display: flex;
      align-items: center;
@@ -535,7 +518,6 @@
      transform: none;
 }
 
-/* Слайдер и карточки */
 .directions-directions-pg__slider {
      width: 100%;
 }
@@ -629,7 +611,6 @@
      gap: 50px;
 }
 
-/* Шапка */
 .advantages-direction-pg__header {
      display: flex;
      justify-content: space-between;
@@ -675,14 +656,12 @@
      color: #555558;
 }
 
-/* Основной контент */
 .advantages-direction-pg__content {
      display: grid;
      grid-template-columns: 1fr 2fr;
      gap: 15px;
 }
 
-/* Левая часть: Метрики (2x2) */
 .advantages-direction-pg__stats {
      display: grid;
      grid-template-columns: repeat(2, 1fr);
@@ -726,7 +705,6 @@
      color: #aeaeae;
 }
 
-/* Правая часть: Карточки преимуществ */
 .advantages-direction-pg__cards {
      display: grid;
      grid-template-columns: repeat(2, 1fr);
@@ -833,7 +811,6 @@
      gap: 50px;
 }
 
-/* Шапка секции */
 .catalog-direction-pg__header {
      display: flex;
      justify-content: space-between;
@@ -892,7 +869,6 @@
      background-color: #c77b0f;
 }
 
-/* Сетка карточек */
 .catalog-direction-pg__grid {
      display: grid;
      grid-template-columns: repeat(4, 1fr);
@@ -959,7 +935,6 @@
      filter: brightness(0) invert(1);
 }
 
-/* Контент карточки */
 .catalog-direction-pg__card-content {
      display: flex;
      flex-direction: column;
@@ -1021,7 +996,6 @@
      gap: 80px;
 }
 
-/* Блок профиля */
 .expert-consultation-direction__profile {
      display: flex;
      flex-direction: column;
@@ -1052,7 +1026,6 @@
      display: block;
 }
 
-/* Анимация пульсации зеленого индикатора */
 .expert-consultation-direction__status-badge {
      position: absolute;
      bottom: 2px;
@@ -1104,7 +1077,6 @@
      margin: 0;
 }
 
-/* Преимущества */
 .expert-consultation-direction__advantages {
      display: flex;
      flex-wrap: wrap;
@@ -1125,7 +1097,6 @@
      flex-shrink: 0;
 }
 
-/* Основной контент */
 .expert-consultation-direction__content {
      display: flex;
      flex-direction: column;
@@ -1157,7 +1128,6 @@
      margin: 0;
 }
 
-/* Действия и соцсети */
 .expert-consultation-direction__actions {
      display: flex;
      align-items: center;
@@ -1447,7 +1417,6 @@
      color: var(--color-text-heading);
 }
 
-/* ---- мозаика карточек ---- */
 .specialization-direction-pg__grid {
      display: grid;
      grid-template-columns: 1fr 1fr;
@@ -1590,7 +1559,6 @@
      color: var(--color-text-body);
 }
 
-/* ---- карточки ---- */
 .technologies-direction-pg__grid {
      display: flex;
      align-items: stretch;
@@ -2038,7 +2006,7 @@
      transform: translateY(-50%);
      width: 15px;
      height: 15px;
-     background: url("../img/direction-page/icons/check.svg") center/contain no-repeat;
+     background: url("../img/icons/check.svg") center/contain no-repeat;
 }
 
 .stage-direction-pg__btn {
@@ -2267,7 +2235,7 @@
      font-size: 44px;
      font-weight: 600;
      line-height: 52.8px;
-     color: #ffffff; 
+     color: #ffffff;
 }
 
 .faq-direction-pg__description {
@@ -2276,7 +2244,7 @@
      font-size: 21px;
      font-weight: 400;
      line-height: 28.14px;
-     color: #aeaeae; 
+     color: #aeaeae;
 }
 
 .faq-direction-pg__accordion {
@@ -2399,7 +2367,6 @@
      gap: 50px;
 }
 
-/* Шапка секции */
 .projects-direction-pg__header {
      display: flex;
      justify-content: space-between;
@@ -2433,7 +2400,7 @@
      font-size: 44px;
      font-weight: 600;
      line-height: 58.96px;
-     color: #222228; 
+     color: #222228;
 }
 
 .projects-direction-pg__nav {
@@ -2462,7 +2429,6 @@
      cursor: not-allowed;
 }
 
-/* Слайдер и Карточки */
 .projects-direction-pg__slider {
      width: 100%;
      overflow: hidden;
@@ -2537,7 +2503,6 @@
      color: #555558;
 }
 
-/* Футер секции */
 .projects-direction-pg__footer {
      display: flex;
      align-items: center;
